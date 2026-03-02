@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8081/api/v1/members';
+const API_URL = 'https://node-js-tp3.vercel.app/api/v1/members';
 
 function MembersTable() {
     const [members, setMembers] = useState([]);
