@@ -1,0 +1,133 @@
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.error-msg {
+  background: #ffe0e0;
+  color: #c00;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.member-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.member-form input {
+  flex: 1;
+  min-width: 180px;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.member-form input:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+.btn-save {
+  background: #646cff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.btn-save:hover {
+  background: #535bf2;
+}
+
+.btn-cancel {
+  background: #888;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.btn-cancel:hover {
+  background: #666;
+}
+
+.members-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.members-table thead {
+  background: #646cff;
+  color: white;
+}
+
+.members-table th,
+.members-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.members-table tbody tr:nth-child(even) {
+  background: #f5f5f5;
+}
+
+.members-table tbody tr:hover {
+  background: #e8e8ff;
+}
+
+.btn-edit {
+  background: #f0ad4e;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.4rem;
+  font-size: 0.85rem;
+}
+
+.btn-edit:hover {
+  background: #ec971f;
+}
+
+.btn-delete {
+  background: #d9534f;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.btn-delete:hover {
+  background: #c9302c;
+}
+
